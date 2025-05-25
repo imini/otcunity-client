@@ -88,7 +88,7 @@ namespace OpenTibiaUnity.Core.WorldMap
                 var textMesh = textComponent.textInfo.meshInfo[0];
                 _mesh.vertices = textMesh.vertices;
                 _mesh.normals = textMesh.normals;
-                _mesh.uv = textMesh.uvs0;
+                _mesh.uv = System.Array.ConvertAll(textMesh.uvs0, v => new Vector2(v.x, v.y));
                 _mesh.uv2 = textMesh.uvs2;
                 _mesh.triangles = textMesh.triangles;
                 _mesh.tangents = textMesh.tangents;

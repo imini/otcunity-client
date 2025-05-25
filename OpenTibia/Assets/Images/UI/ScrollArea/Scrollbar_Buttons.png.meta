@@ -1,17 +1,33 @@
 fileFormatVersion: 2
 guid: 7ec59cd69b564104c9bb98035d68693c
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Scrollbar_Buttons_Top
-    21300002: Scrollbar_Buttons_Top_Pressed
-    21300004: Scrollbar_Buttons_Left
-    21300006: Scrollbar_Buttons_Right
-    21300008: Scrollbar_Buttons_Bottom
-    21300010: Scrollbar_Buttons_Bottom_Pressed
-    21300012: Scrollbar_Buttons_Left_Pressed
-    21300014: Scrollbar_Buttons_Right_Pressed
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Scrollbar_Buttons_Top
+  - first:
+      213: 21300002
+    second: Scrollbar_Buttons_Top_Pressed
+  - first:
+      213: 21300004
+    second: Scrollbar_Buttons_Left
+  - first:
+      213: 21300006
+    second: Scrollbar_Buttons_Right
+  - first:
+      213: 21300008
+    second: Scrollbar_Buttons_Bottom
+  - first:
+      213: 21300010
+    second: Scrollbar_Buttons_Bottom_Pressed
+  - first:
+      213: 21300012
+    second: Scrollbar_Buttons_Left_Pressed
+  - first:
+      213: 21300014
+    second: Scrollbar_Buttons_Right_Pressed
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -28,9 +44,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -40,8 +59,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -62,11 +81,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -76,8 +101,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -87,8 +114,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: tvOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -98,8 +127,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -109,9 +140,11 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Windows Store Apps
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -120,8 +153,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -131,7 +166,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -146,11 +183,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: ea0456caa033c9a478cd47d8bf755177
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -166,11 +205,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 744f4d2a73f68e048bff49d34ae62107
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -186,11 +227,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: ea2b4d27c64ce6d45beb2d825cb146cc
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -206,11 +249,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 65c8c4192362cd14ca73fa0fd1bde20e
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -226,11 +271,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 768d262722620f647aa74a0f2e97ef5d
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -246,11 +293,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 13a49749d5cd6404ba40e3116e66b7ee
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -266,11 +315,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: e2c55f880adf65b41bd8cc2842faf254
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -286,26 +337,41 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 6a281df71b0a9fc46936ad854b8bc230
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: ec78a5eb84e8afc4399f10817a1a2a54
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Scrollbar_Buttons_Bottom: 21300008
+      Scrollbar_Buttons_Bottom_Pressed: 21300010
+      Scrollbar_Buttons_Left: 21300004
+      Scrollbar_Buttons_Left_Pressed: 21300012
+      Scrollbar_Buttons_Right: 21300006
+      Scrollbar_Buttons_Right_Pressed: 21300014
+      Scrollbar_Buttons_Top: 21300000
+      Scrollbar_Buttons_Top_Pressed: 21300002
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
